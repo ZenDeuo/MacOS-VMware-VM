@@ -195,7 +195,7 @@ Now that you know, You can venture forth! <br>
 <br>
 ![VMware Workstation Configuration Image 5.6](https://cdn.deuo.one/Files/PICS/VMware-Workstation-MacOS-Ventura/VM-Configuration/5.6.png) <br>
 <br>
-Now you'll need to Select Your ISO File for MacOS Ventura, You can easily create one if you have a spare Mac or you could download one from the [Internet Archive](https://archive.org) as I don't think I can legally provide one... <br>
+Now you'll need to Select Your ISO File for MacOS Ventura, You can easily create one if you have a spare Mac or you could download one from the [Internet Archive](https://archive.org)... For Example: [Internet Archive: MacOS Ventura 13.0](https://archive.org/details/mac-os-ventura-13.0/macOS%2013-2022-12-22-22-18-37.png) or [Internet Archive: MacOS Ventura And Sonoma](https://archive.org/details/macos-ventura-and-sonoma). I don't think I can legally provide ISO Files however those link to ISO files uploaded by other users that should work just as well as my Ventura ISO... <br>
 The way I got my ISO was from [these lovely people here](https://github.com/kholia/OSX-KVM/) who have created something similar but instead for QEMU which allows for GPU Passthru so it only works ideally if you've got 2 GPU's and 1 of them is supported via the Mac Operating System. <br>
 You may use their file: [fetch-macOS-v2.py](https://github.com/kholia/OSX-KVM/blob/master/fetch-macOS-v2.py) Python File which I've also uploaded here just in case theirs disappears but hopefully it won't as theirs will always be the most up-to-date one so please use theirs if possible as my reupload won't be maintained regularly! <br>
 <br>
