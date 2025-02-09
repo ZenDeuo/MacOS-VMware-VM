@@ -31,6 +31,7 @@ If you were looking to do Video Editing or Photoshop within this VM then I'm afr
 - Extraction Software Either: [7-Zip](https://7-zip.org/)  |  [WinRAR](https://www.win-rar.com/)  |  [PeaZip](https://peazip.github.io/)
 - [Git](https://git-scm.com/downloads)
 - VMware Workstation: [Link 1](https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html)  |  [Link 2](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro)
+- [VMware Unlocker](https://github.com/paolo-projects/auto-unlocker/releases)
 
 ### ([Back To The Top](#macos-ventura-vmware-workstation-setup--configuration)) | Getting Started: 
 This Guide should work on both Windows & Linux but no promises if it doesn't work because I've spent countless hours just trying to get it to work after people kept saying that it would never work and I was on the brink of giving up but if anything this just proves that even when your at the exit door and it's so easy to walk through, you should never give up!
@@ -41,7 +42,18 @@ You can grab VMware Workstation from either of the following URL: <br>
 [VMware's Website](https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html) <br>
 [Broadcom's Website](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro) <br>
 <br>
-Once you've finished downloaded and installing VMware Workstation, you should be met with an interface that looks a little something like this: <br>
+Once you've finished downloaded and installing VMware Workstation, close VMware Workstation as you now need to Run and Install VMware Unlocker. <br>
+To do this download [VMware Unlocker](https://github.com/paolo-projects/auto-unlocker/releases). (Press The Latest Version Of "Unlocker.zip" File to download it.) <br>
+Extract it to the Downloads folder and follow the steps below: <br>
+<li>For Windows Users</li><br>
+Run Unlocker.exe and Install It / Follow What The GUI Interface Says, Then proceed to the Next Steps Below. <br>
+<br>
+<li>For Linux Users</li><br>
+You'll need to compile the Code first before being able to execute it. <br>
+I recommend reading their Guide under their "How To Use" and "Compile" Sections to get your VMware Workstation Unlocker working. Once you've Unlocked your VMware Workstation, Proceed to the Next Step Below.<br>
+<br>
+
+Open VMware Workstation and you should be met with an interface that looks a little something like this: <br>
 ![VMware Installer Image](https://cdn.deuo.one/Files/PICS/VMware-Workstation-MacOS-Ventura/VMwareStartup.png)
 <br>
 <br>
