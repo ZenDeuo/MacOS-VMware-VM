@@ -1,18 +1,18 @@
 # MacOS Ventura VMware Workstation Setup & Configuration!
 
 ## Guide:
-## [System's Specifications That This Was Tested On](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--systems-specifications-that-this-was-tested-on)
-## [What To Expect Performance Wise From The VM](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--what-to-expect-performance-wise-from-the-vm)
-## [Prerequisites](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--prerequisites)
-## [Getting Started](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--getting-started)
-## [Creating The Virtual Machine](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--creating-the-virtual-machine)
-## [Prerequisites Before Configuring The Virtual Machine](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--prerequisites-before-configuring-the-virtual-machine)
-## [Configuring The Virtual Machine](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--configuring-the-virtual-machine)
-## [Installing MacOS (The Recovery Environment Setup Stage)](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--installing-macos-the-recovery-environment-setup-stage)
-## [Installing MacOS (The Out Of Box Experience Setup Stage):](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--installing-macos-the-out-of-box-experience-setup-stage)
-## [Installing VMware Tools](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--installing-vmware-tools)
-## [The End](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--the-end)
-## [Troubleshooting](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--troubleshooting)
+## [System's Specifications That This Was Tested On](#back-to-the-top--systems-specifications-that-this-was-tested-on)
+## [What To Expect Performance Wise From The VM](#back-to-the-top--what-to-expect-performance-wise-from-the-vm)
+## [Prerequisites](#back-to-the-top--prerequisites)
+## [Getting Started](#back-to-the-top--getting-started)
+## [Creating The Virtual Machine](#back-to-the-top--creating-the-virtual-machine)
+## [Prerequisites Before Configuring The Virtual Machine](#back-to-the-top--prerequisites-before-configuring-the-virtual-machine)
+## [Configuring The Virtual Machine](#back-to-the-top--configuring-the-virtual-machine)
+## [Installing MacOS (The Recovery Environment Setup Stage)](#back-to-the-top--installing-macos-the-recovery-environment-setup-stage)
+## [Installing MacOS (The Out Of Box Experience Setup Stage)](#back-to-the-top--installing-macos-the-out-of-box-experience-setup-stage)
+## [Installing VMware Tools](#back-to-the-top--installing-vmware-tools)
+## [The End](#back-to-the-top--the-end)
+## [Troubleshooting](#back-to-the-top--troubleshooting)
 
 ---
 
