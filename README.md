@@ -168,7 +168,7 @@ Time to Configure your Virtual Machine! After this is done, You can then Install
 <br>
 ![VMware Workstation Configuration Image 4.5](https://cdn.deuo.one/Files/PICS/VMware-Workstation-MacOS-Ventura/VM-Configuration/4.5.png) <br>
 <br>
-Remember that file you Extracted and put in a Memorable Location? You performed this task as part of the [Prerequisites Before Configuring The Virtual Machine.](#back-to-the-topmacos-ventura-vmware-workstation-setup--configuration--prerequisites-before-configuring-the-virtual-machine) <br>
+Remember that file you Extracted and put in a Memorable Location? You performed this task as part of the [Prerequisites Before Configuring The Virtual Machine.](#back-to-the-top--prerequisites-before-configuring-the-virtual-machine) <br>
 If you forgot that's okay just go ahead and redo the tasks in Prerequisites Before Configuring The Virtual Machine and then come back here. <br>
 I've included a Jump Button in that Section too in case you struggle to find this place again! :) <br>
 <br>
