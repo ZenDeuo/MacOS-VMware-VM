@@ -1,7 +1,7 @@
 # MacOS Ventura VMware Workstation Setup & Configuration!
 
 ## Guide:
-## [Massive Thanks To]()
+## [Massive Thanks To](#back-to-the-top--massive-thanks-to)
 ## [System's Specifications That This Was Tested On](#back-to-the-top--systems-specifications-that-this-was-tested-on)
 ## [What To Expect Performance Wise From The VM](#back-to-the-top--what-to-expect-performance-wise-from-the-vm)
 ## [Prerequisites](#back-to-the-top--prerequisites)
