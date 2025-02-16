@@ -620,8 +620,9 @@ Turning Off The Windows Hypervisor: <br>
 <li>Restart your Computer (Not the VM).</li>
 <br>
 - It is also recommended to disable the "Memory Integrity Checks" in Windows to Improve the Performance. <br>
-After installing VMware Tools, you may only change the Resolution within MacOS. Ex: 1600x1100. To do this, <br>
 <br>
-- Type in the MacOS Terminal: <code>sudo /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1600 1100</code> <br>
+- After installing VMware Tools, you may only change the Resolution within MacOS. Ex: 1600x1100. To do this: <br>
+Type in the MacOS Terminal: <code>sudo /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1600 1100</code> <br>
+<br>
 Note: In VMWare's Display Settings you need to set the Resolutions Higher than or Equal to the ones you'll be using in macOS. <br>
 THIS WAY YOU CAN EVEN RUN XCODE SIMULATOR SMOOTHLY AT LOW RESOLUTIONS SUCH AS 1024X768.
