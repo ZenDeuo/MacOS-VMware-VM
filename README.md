@@ -1,6 +1,7 @@
 # MacOS Ventura VMware Workstation Setup & Configuration!
 
 ## Guide:
+## [Massive Thanks To]()
 ## [System's Specifications That This Was Tested On](#back-to-the-top--systems-specifications-that-this-was-tested-on)
 ## [What To Expect Performance Wise From The VM](#back-to-the-top--what-to-expect-performance-wise-from-the-vm)
 ## [Prerequisites](#back-to-the-top--prerequisites)
@@ -15,6 +16,9 @@
 ## [Troubleshooting](#back-to-the-top--troubleshooting)
 
 ---
+
+### ([Back To The Top](#macos-ventura-vmware-workstation-setup--configuration)) | Massive Thanks To:
+- [Tucano2000 For This Helpful Guide's Tools, All I've Really Done Is Added To It With Screenshots To Help The Users Better! Most Files You Find Here Will Be Further Updated Here Most Likely.](https://forum.amd-osx.com/threads/mac-os-install-on-amd-ryzen-vmware-opencore-improved-performance-works-with-sequoia-sonoma-etc.4696/)
 
 ### ([Back To The Top](#macos-ventura-vmware-workstation-setup--configuration)) | System's Specifications That This Was Tested On: 
 <li>OS: CachyOS (An Arch Based Distribution)</li><br>
