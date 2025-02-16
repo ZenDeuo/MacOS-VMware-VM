@@ -560,14 +560,20 @@ This should give you some Common Fixes for issues you may be encountering! <br>
 To fix this issue, Shutdown your MacOS Installation --> Edit virtual machine settings: <br>
 Ensure you have 2 Hard Disk's, Should be named something like: Hard Disk (SATA) and Hard Disk 2 (SATA). <br>
 If you do not have 2 Hard Disk's then you need to create the Main OS Hard Disk. You can do this by following the steps below: <br>
-Press Add... --> Hard Disk --> SATA (Recommended) --> Create a new virtual disk --> Input the size you want for the Virtual Disk and Store virtual disk as a single file. Press Next --> Press Finish <br>
+<li>Press Add...</li>
+<li>Hard Disk.</li>
+<li>SATA (Recommended).</li>
+<li>Create a New Virtual Disk.</li>
+<li>Input the Size you want for the Virtual Disk and select "Store Virtual Disk as a Single File".</li>
+<li>Press Next.</li>
+<li>Press Finish.</li>
+<br>
 On the new Selected Drive, should be named something like "New Hard Disk (SATA)", select it in the left menu --> then press "Advanced" --> Change the Virtual Device Node to SATA 0:2 --> Press Close --> Press Save --> And Try Installing MacOS Again. <br>
 <br>
 If you have the Drive, ensure it says "Hard Disk (SATA)" if it doesn't, this likely means you chose a different option during setup meaning you're going to have to Remove that Virtual Disk by Selecting it in the Left Menu and then pressing Remove at the Bottom in "Edit virtual machine options" then follow the text guide a few lines above this. <br>
 <br>
 
-## Issues Picked Up In Tucano2000's Guide.
-<br>
+### Issues Picked Up In Tucano2000's Guide.
 
 ### White Background / Wallpaper In MacOS: 
 If when you first get into MacOS you have the problem where the Background / Wallpaper is White. <br>
