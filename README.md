@@ -598,7 +598,7 @@ Open the Mac Terminal and type the Commands below in order: <br>
 <li><code>sudo nano /etc/sysctl.conf</code></li> <br>
 <br>
 Add the below entry in the sysctl.conf File: <br>
-</li><code>net.inet.tcp.tso=0</code></li> <br>
+<li><code>net.inet.tcp.tso=0</code></li> <br>
 <br>
 Press Control + O then Enter to Save then press Control + X to exit.Restart your MacOS VM.
 <br>
