@@ -563,4 +563,49 @@ If you do not have 2 Hard Disk's then you need to create the Main OS Hard Disk. 
 Press Add... --> Hard Disk --> SATA (Recommended) --> Create a new virtual disk --> Input the size you want for the Virtual Disk and Store virtual disk as a single file. Press Next --> Press Finish <br>
 On the new Selected Drive, should be named something like "New Hard Disk (SATA)", select it in the left menu --> then press "Advanced" --> Change the Virtual Device Node to SATA 0:2 --> Press Close --> Press Save --> And Try Installing MacOS Again. <br>
 <br>
-If you have the Drive, ensure it says "Hard Disk (SATA)" if it doesn't, this likely means you chose a different option during setup meaning you're going to have to Remove that Virtual Disk by Selecting it in the Left Menu and then pressing Remove at the Bottom in "Edit virtual machine options" then follow the text guide a few lines above this.
+If you have the Drive, ensure it says "Hard Disk (SATA)" if it doesn't, this likely means you chose a different option during setup meaning you're going to have to Remove that Virtual Disk by Selecting it in the Left Menu and then pressing Remove at the Bottom in "Edit virtual machine options" then follow the text guide a few lines above this. <br>
+<br>
+## Issues Picked Up In Tucano2000's Guide.
+<br>
+### White Background / Wallpaper In MacOS: 
+If when you first get into MacOS you have the problem where the Background / Wallpaper is White. <br>
+<li>Navigate into System Settings</li>
+<li>Wallpaper Settings</li>
+<li>Deactivate the "Show as Screen Saver" Option</li>
+<li>Then choose a wallpaper you like :)</li>
+<br>
+### SLOW UPLOAD SPEED: 
+If there's a problem with your File Upload over the Network / Internet, You can fix this by: <br>
+<br>
+Open the Mac Terminal and type the Commands below in order: <br>
+<br>
+<code>sudo sysctl -a | grep net.inet.tcp.tso</code> <br>
+<code>sudo sysctl -w net.inet.tcp.tso=0</code> <br>
+<code>sudo nano /etc/sysctl.conf</code> <br>
+<br>
+- Add the below entry in the sysctl.conf File: <br>
+<code>net.inet.tcp.tso=0</code> <br>
+<br>
+Press Control + O then Enter to Save then press Control + X to exit.Restart your MacOS VM.
+<br>
+This happens due to a problem with the VMware vmxnet3 Network Driver.
+<br>
+Tucano2000 has tested this solution and managed to solve this problem with the steps above.
+<br>
+### For Windows Only: 
+This should help improve the performance of the Virtual Machine and correct some Errors during Startup. <br>
+<br>
+- Turning Off The Windows Hypervisor: <br>
+<li>In Windows, Open the Start Menu and Search for "Command Prompt"</li>
+<li>Right-Click "Command Prompt" and then click "Run as Administrator".</li>
+<li>If the User Account Control dialog box appears, Confirm that the Action shown is the one you want to proceed with and click Continue.</li>
+<li>Then type: “<code>bcdedit /set hypervisorlaunchtype off</code>” Hit Enter.</li>
+<li>Then type: <code>reg add “HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity” /v “Enabled” /t REG_DWORD /d 0 /f</code></li>
+<li>Press enter again.</li>
+<li>Restart your Computer (Not the VM).</li>
+<br>
+- It is also recommended to disable the "Memory Integrity Checks" in Windows to Improve the Performance. <br>
+After installing VMware Tools, you may only change the Resolution within MacOS. Ex: 1600x1100. To do this, <br>
+- Type in the MacOS Terminal: <code>sudo /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1600 1100</code> <br>
+Note: In VMWare's Display Settings you need to set the Resolutions Higher than or Equal to the ones you'll be using in macOS. <br>
+THIS WAY YOU CAN EVEN RUN XCODE SIMULATOR SMOOTHLY AT LOW RESOLUTIONS SUCH AS 1024X768.
