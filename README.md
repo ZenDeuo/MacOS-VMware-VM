@@ -565,8 +565,10 @@ On the new Selected Drive, should be named something like "New Hard Disk (SATA)"
 <br>
 If you have the Drive, ensure it says "Hard Disk (SATA)" if it doesn't, this likely means you chose a different option during setup meaning you're going to have to Remove that Virtual Disk by Selecting it in the Left Menu and then pressing Remove at the Bottom in "Edit virtual machine options" then follow the text guide a few lines above this. <br>
 <br>
+
 ## Issues Picked Up In Tucano2000's Guide.
 <br>
+
 ### White Background / Wallpaper In MacOS: 
 If when you first get into MacOS you have the problem where the Background / Wallpaper is White. <br>
 <li>Navigate into System Settings</li>
@@ -574,6 +576,7 @@ If when you first get into MacOS you have the problem where the Background / Wal
 <li>Deactivate the "Show as Screen Saver" Option</li>
 <li>Then choose a wallpaper you like :)</li>
 <br>
+
 ### SLOW UPLOAD SPEED: 
 If there's a problem with your File Upload over the Network / Internet, You can fix this by: <br>
 <br>
@@ -592,6 +595,7 @@ This happens due to a problem with the VMware vmxnet3 Network Driver.
 <br>
 Tucano2000 has tested this solution and managed to solve this problem with the steps above.
 <br>
+
 ### For Windows Only: 
 This should help improve the performance of the Virtual Machine and correct some Errors during Startup. <br>
 <br>
