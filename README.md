@@ -568,7 +568,12 @@ If you do not have 2 Hard Disk's then you need to create the Main OS Hard Disk. 
 <li>Press Next.</li>
 <li>Press Finish.</li>
 <br>
-On the new Selected Drive, should be named something like "New Hard Disk (SATA)", select it in the left menu --> then press "Advanced" --> Change the Virtual Device Node to SATA 0:2 --> Press Close --> Press Save --> And Try Installing MacOS Again. <br>
+On the new Selected Drive, should be named something like "New Hard Disk (SATA)", Select it in the Left Menu: <br>
+<li>Press "Advanced"</li>
+<li>Change the Virtual Device Node to SATA 0:2 (If it isn't already on SATA 0:2</li>
+<li>Press Close</li>
+<li>Press Save</li>
+<li>Try Installing MacOS Again.</li>
 <br>
 If you have the Drive, ensure it says "Hard Disk (SATA)" if it doesn't, this likely means you chose a different option during setup meaning you're going to have to Remove that Virtual Disk by Selecting it in the Left Menu and then pressing Remove at the Bottom in "Edit virtual machine options" then follow the text guide a few lines above this. <br>
 <br>
@@ -588,12 +593,12 @@ If there's a problem with your File Upload over the Network / Internet, You can 
 <br>
 Open the Mac Terminal and type the Commands below in order: <br>
 <br>
-<code>sudo sysctl -a | grep net.inet.tcp.tso</code> <br>
-<code>sudo sysctl -w net.inet.tcp.tso=0</code> <br>
-<code>sudo nano /etc/sysctl.conf</code> <br>
+<li><code>sudo sysctl -a | grep net.inet.tcp.tso</code></li> <br>
+<li><code>sudo sysctl -w net.inet.tcp.tso=0</code></li> <br>
+<li><code>sudo nano /etc/sysctl.conf</code></li> <br>
 <br>
-- Add the below entry in the sysctl.conf File: <br>
-<code>net.inet.tcp.tso=0</code> <br>
+Add the below entry in the sysctl.conf File: <br>
+</li><code>net.inet.tcp.tso=0</code></li> <br>
 <br>
 Press Control + O then Enter to Save then press Control + X to exit.Restart your MacOS VM.
 <br>
@@ -605,7 +610,7 @@ Tucano2000 has tested this solution and managed to solve this problem with the s
 ### For Windows Only: 
 This should help improve the performance of the Virtual Machine and correct some Errors during Startup. <br>
 <br>
-- Turning Off The Windows Hypervisor: <br>
+Turning Off The Windows Hypervisor: <br>
 <li>In Windows, Open the Start Menu and Search for "Command Prompt"</li>
 <li>Right-Click "Command Prompt" and then click "Run as Administrator".</li>
 <li>If the User Account Control dialog box appears, Confirm that the Action shown is the one you want to proceed with and click Continue.</li>
@@ -616,6 +621,7 @@ This should help improve the performance of the Virtual Machine and correct some
 <br>
 - It is also recommended to disable the "Memory Integrity Checks" in Windows to Improve the Performance. <br>
 After installing VMware Tools, you may only change the Resolution within MacOS. Ex: 1600x1100. To do this, <br>
+<br>
 - Type in the MacOS Terminal: <code>sudo /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1600 1100</code> <br>
 Note: In VMWare's Display Settings you need to set the Resolutions Higher than or Equal to the ones you'll be using in macOS. <br>
 THIS WAY YOU CAN EVEN RUN XCODE SIMULATOR SMOOTHLY AT LOW RESOLUTIONS SUCH AS 1024X768.
