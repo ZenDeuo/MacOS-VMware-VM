@@ -55,11 +55,7 @@ Run Unlocker.exe and Install It / Follow What The GUI Interface Says, Then proce
 <li>For Linux Users</li>
 <br>
 You'll need to compile the Code first before being able to execute it. <br>
-I recommend reading their Guide under their
-[How To Use](https://github.com/paolo-projects/auto-unlocker?tab=readme-ov-file#how-to-use/)
-and
-[Compile](https://github.com/paolo-projects/auto-unlocker?tab=readme-ov-file#compile/)
-Sections to get your VMware Workstation Unlocker working. Once you've Unlocked your VMware Workstation, Proceed to the Next Step Below.<br>
+I recommend reading their Guide under their <a href="https://github.com/paolo-projects/auto-unlocker/blob/master/README.md#how-to-use">How To Use</a> and <a href="https://github.com/paolo-projects/auto-unlocker/blob/master/README.md#compile">Compile</a> Sections to get your VMware Workstation Unlocker working. Once you've Unlocked your VMware Workstation, Proceed to the Next Step Below.<br>
 <br>
 
 Open VMware Workstation and you should be met with an interface that looks a little something like this: <br>
