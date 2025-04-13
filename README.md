@@ -52,11 +52,12 @@ Extract it to the Downloads folder and follow the steps below: <br>
 <li>For Windows Users</li><br>
 Run Unlocker.exe and Install It / Follow What The GUI Interface Says, Then proceed to the Next Steps Below. <br>
 <br>
-<li>For Linux Users</li><br>
-You'll need to compile the Code first before being able to execute it. <br>
+
+<li>For Linux Users</li>
+<br>
+You'll need to compile the Code first before being able to execute it.<br>
 I recommend reading their Guide under their [How To Use](https://github.com/paolo-projects/auto-unlocker?tab=readme-ov-file#how-to-use/) and [Compile](https://github.com/paolo-projects/auto-unlocker?tab=readme-ov-file#compile/) Sections to get your VMware Workstation Unlocker working. Once you've Unlocked your VMware Workstation, Proceed to the Next Step Below.<br>
 <br>
-
 Open VMware Workstation and you should be met with an interface that looks a little something like this: <br>
 ![VMware Installer Image](https://cdn.deuo.one/Files/PICS/VMware-Workstation-MacOS-Ventura/VMwareStartup.png)
 <br>
