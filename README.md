@@ -47,14 +47,14 @@ You can grab VMware Workstation from either of the following URL: <br>
 [Broadcom's Website](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro) <br>
 <br>
 Once you've finished downloaded and installing VMware Workstation, close VMware Workstation as you now need to Run and Install VMware Unlocker. <br>
-To do this download [VMware Unlocker](https://github.com/paolo-projects/auto-unlocker/releases). (Press The Latest Version Of "Unlocker.zip" File to download it.) <br>
+To do this download [VMware Unlocker](https://github.com/paolo-projects/auto-unlocker/releases/). (Press The Latest Version Of "Unlocker.zip" File to download it.) <br>
 Extract it to the Downloads folder and follow the steps below: <br>
 <li>For Windows Users</li><br>
 Run Unlocker.exe and Install It / Follow What The GUI Interface Says, Then proceed to the Next Steps Below. <br>
 <br>
 <li>For Linux Users</li><br>
 You'll need to compile the Code first before being able to execute it. <br>
-I recommend reading their Guide under their [How To Use](https://github.com/paolo-projects/auto-unlocker?tab=readme-ov-file#how-to-use) and [Compile](https://github.com/paolo-projects/auto-unlocker?tab=readme-ov-file#compile) Sections to get your VMware Workstation Unlocker working. Once you've Unlocked your VMware Workstation, Proceed to the Next Step Below.<br>
+I recommend reading their Guide under their [How To Use](https://github.com/paolo-projects/auto-unlocker?tab=readme-ov-file#how-to-use/) and [Compile](https://github.com/paolo-projects/auto-unlocker?tab=readme-ov-file#compile/) Sections to get your VMware Workstation Unlocker working. Once you've Unlocked your VMware Workstation, Proceed to the Next Step Below.<br>
 <br>
 
 Open VMware Workstation and you should be met with an interface that looks a little something like this: <br>
