@@ -1,3 +1,7 @@
+# This Repository Is Now Archived!
+# Please Refer To [DrDonk's OC4VM GitHub Repository](https://github.com/DrDonk/OC4VM) To Get A MacOS VM In VMware!
+# Big Thanks To [Huey / H-uey](https://github.com/H-uey) For Finding This GitHub Repository And Suggesting It In [Their Issue](https://github.com/ZenDeuo/MacOS-VMware-VM/issues/3)!
+
 # MacOS Virtual Machine In VMware Workstation - Setup & Configuration!
 
 ## Guide:
